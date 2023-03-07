@@ -1,0 +1,20 @@
+<script setup>
+import WelcomeItem from './WelcomeItem.vue'
+import DocumentationIcon from './icons/IconDocumentation.vue'
+import ToolingIcon from './icons/IconTooling.vue'
+import EcosystemIcon from './icons/IconEcosystem.vue'
+import CommunityIcon from './icons/IconCommunity.vue'
+import SupportIcon from './icons/IconSupport.vue'
+</script>
+
+<template>
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>Education</template>
+
+    I graduated from Lone Peak High School in 2022 and currently attend the University of Utah,
+    pursuing an Honors Computer Science BS with a Math minor and a Physics minor.
+  </WelcomeItem>
+</template>
