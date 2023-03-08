@@ -1,17 +1,17 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Introduction from './components/Introduction.vue'
+import Summaries from './components/Summaries.vue'
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld />
+      <Introduction />
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <Summaries />
   </main>
 </template>
 
