@@ -1,5 +1,5 @@
 <template>
-  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 2277 2277" xml:space="preserve">
+  <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 2277 2277" xml:space="preserve">
     <path style="fill:currentColor" transform="matrix(.69 0 0 .69 1104 138)" d="M0 0h100v100H0z"/>
     <path style="fill:currentColor" transform="matrix(.69 0 0 .69 1449 138)" d="M0 0h100v100H0z"/>
     <path style="fill:currentColor" transform="matrix(.69 0 0 .69 828 207)" d="M0 0h100v100H0z"/>

@@ -29,8 +29,7 @@ h3 {
   font-size: 1.2rem;
 }
 
-.greetings h1,
-.greetings h3 {
+.greetings {
   text-align: center;
 }
 
@@ -39,16 +38,5 @@ h3 {
   .greetings h3 {
     text-align: left;
   }
-}
-
-.QR {
-  top: calc(50% - 25px);
-  left: -26px;
-  position: absolute;
-  border: 1px solid var(--color-border);
-  background: var(--color-background);
-  border-radius: 8px;
-  width: 50px;
-  height: 50px;
 }
 </style>
