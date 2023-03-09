@@ -8,7 +8,7 @@ import QRIcon from './icons/IconQRCode.vue'
   <div class="greetings">
     <h1 class="red">Brayden Jonsson</h1>
     <h3>
-      A student at the University of Utah
+      A student at the <a href="https://www.utah.edu/">University of Utah</a>
       <br>
       This site is built using Vue, and is based on the Vue default build.
     </h3>
