@@ -48,6 +48,8 @@ import GithubIcon from './icons/IconGithub.vue'
     <br>
     -<a href="https://guywithapc.itch.io/trimmed-for-travel">Trimmed for Travel</a>
     <br>
+    -<a href="https://guywithapc.itch.io/redo-rhythm">Redo Rhythm</a>
+    <br>
     I am credited as both Brayden Jonsson and F1scherman on projects I've worked on.
   </SummaryItem>
   <SummaryItem>
