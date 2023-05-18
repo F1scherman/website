@@ -1,23 +1,16 @@
 <script setup>
 import Introduction from './components/index-introduction.vue'
-import Summaries from './components/index-summaries.vue'
-import Button from "./components/button.vue";
-
-import { ref } from "vue";
-const education = ref("education.html");
+import NavigationButtons from "./components/navigation-buttons.vue";
 </script>
 
 <template>
+  <NavigationButtons></NavigationButtons>
+  <br>
   <header>
-    <Button :href="education"> Education </Button>
     <div class="wrapper">
       <Introduction />
     </div>
   </header>
-
-  <main>
-    <Summaries />
-  </main>
 </template>
 
 <style scoped>

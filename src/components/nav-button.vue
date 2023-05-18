@@ -6,9 +6,7 @@ defineProps(['href'])
   <div class="button">
     <a id="button-link" :href="href">
       <button>
-        <div class="text">
         <slot></slot>
-        </div>
       </button>
     </a>
   </div>
@@ -16,8 +14,7 @@ defineProps(['href'])
 
 <style scoped>
 
-.text {
-  display: flex;
+slot {
   place-items: center;
   place-content: center;
   color: var(--color-text);
@@ -27,11 +24,24 @@ button {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 0.4rem;
-  width: 100px;
+  margin-right: 10px;
+  width: 128px;
   height: 32px;
+  border-radius: 8px;
   border: 1px solid var(--color-border);
   background: var(--color-background);
-  border-radius: 8px;
+  color: var(--color-text);
+  transition: 0.5s;
+}
+
+button:hover {
+  background: var(--color-background-mute);
+  color: #890000;
+  border-color: var(--color-border-hover);
+}
+
+.button {
+  position: relative;
 }
 
 @media (min-width: 1024px) {

@@ -1,12 +1,11 @@
 <script setup>
 import DocumentationIcon from "@/components/icons/IconDocumentation.vue";
 import SummaryItem from "@/components/summary-item.vue";
+import NavigationButtons from "@/components/navigation-buttons.vue";
 </script>
 
 <template>
-  <header>
-  </header>
-
+  <NavigationButtons></NavigationButtons>
   <main>
     <SummaryItem>
       <template #icon>
@@ -26,18 +25,3 @@ import SummaryItem from "@/components/summary-item.vue";
     </SummaryItem>
   </main>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: normal;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-}
-</style>
