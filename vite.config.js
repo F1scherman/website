@@ -10,5 +10,15 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  input: {
+    index: 'src/index.js',
+    education: 'src/education.js',
+    experience: 'src/experience.js',
+    media: 'src/media.js',
+    projects: 'src/projects.js'
+  },
+  output: {
+    entryFileNames: '[name].js'
   }
 })
