@@ -13,6 +13,11 @@ import QRIcon from './icons/IconQRCode.vue'
     <slot class="QR">
       <QRIcon />
     </slot>
+    <h3>
+      I am a rising sophomore for an Honors Computer Science BS, with two minors in Math and Physics.
+      I built this site both as a way to display my portfolio information, as well as practice
+      legitimate web development techniques.
+    </h3>
   </div>
 </template>
 
