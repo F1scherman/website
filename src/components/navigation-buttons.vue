@@ -6,6 +6,7 @@ const education = ref("education.html");
 const experience = ref("experience.html");
 const projects = ref("projects.html");
 const media = ref("media.html");
+const home = ref("index.html");
 </script>
 
 <template>
@@ -15,6 +16,9 @@ const media = ref("media.html");
     </MyButton>
     <MyButton :href="experience">
       Experience
+    </MyButton>
+    <MyButton :href="home">
+      Home
     </MyButton>
     <MyButton :href="projects">
       Projects
@@ -27,10 +31,14 @@ const media = ref("media.html");
 
 <style scoped>
 .buttons {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-direction: row;
+  place-items: flex-start;
+  place-self: center;
+  place-content: center;
+  /*grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 144px;
-  grid-row-gap: 0px;
+  grid-row-gap: 0px;*/
 }
 </style>

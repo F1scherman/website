@@ -8,9 +8,6 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
   <NavigationButtons></NavigationButtons>
   <main>
     <SummaryItem>
-      <template #icon>
-        <DocumentationIcon />
-      </template>
       <template #heading>Education</template>
 
       I graduated from <a href="https://lphs.alpineschools.org/">Lone Peak High School</a> in 2022, where

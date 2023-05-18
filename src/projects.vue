@@ -8,9 +8,6 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
 <template>
   <NavigationButtons></NavigationButtons>
   <SummaryItem>
-    <template #icon>
-      <EcosystemIcon />
-    </template>
     <template #heading>Projects</template>
 
     I've worked on several projects over the years, and the current public ones are:

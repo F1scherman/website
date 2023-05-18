@@ -43,12 +43,4 @@ button:hover {
 .button {
   position: relative;
 }
-
-@media (min-width: 1024px) {
-  button {
-    top: calc(50% - 25px);
-    left: -26px;
-    position: absolute;
-  }
-}
 </style>

@@ -10,9 +10,6 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
 <template>
   <NavigationButtons></NavigationButtons>
   <SummaryItem>
-    <template #icon>
-      <CommunityIcon />
-    </template>
     <template #heading>Social Media</template>
     <a href="https://www.linkedin.com/in/brayden-jonsson-03080b247/"><LinkedinIcon /></a>&nbsp;
     <a href="https://github.com/BraydenJonsson"><GithubIcon /></a>&nbsp;

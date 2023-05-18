@@ -8,9 +8,6 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
 <template>
   <NavigationButtons></NavigationButtons>
   <SummaryItem>
-    <template #icon>
-      <ToolingIcon />
-    </template>
     <template #heading>Work Experience</template>
 
     I currently work for <a href="https://www.wasatchtutors.com/">Wasatch Tutors</a> in Sandy, working
