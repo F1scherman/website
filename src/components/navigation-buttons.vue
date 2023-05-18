@@ -36,6 +36,7 @@ const home = ref("index.html");
   place-items: flex-start;
   place-self: center;
   place-content: center;
+  flex-wrap: wrap;
   /*grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 144px;
