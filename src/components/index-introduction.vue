@@ -1,6 +1,4 @@
 <script setup>
-defineProps({
-})
 import QRIcon from './icons/IconQRCode.vue'
 </script>
 
