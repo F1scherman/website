@@ -1,5 +1,4 @@
 <script setup>
-import QRIcon from './icons/IconQRCode.vue'
 </script>
 
 <template>
@@ -35,7 +34,7 @@ import QRIcon from './icons/IconQRCode.vue'
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
-  top: 0px;
+  top: 0;
 }
 
 h3 {
