@@ -40,6 +40,10 @@ button:hover {
   border-color: var(--color-border-hover);
 }
 
+a:hover {
+  background: var(--color-background);
+}
+
 .button {
   position: relative;
 }
