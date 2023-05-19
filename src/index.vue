@@ -5,7 +5,6 @@ import NavigationButtons from "./components/navigation-buttons.vue";
 
 <template>
   <NavigationButtons></NavigationButtons>
-  <br>
   <header>
     <div class="wrapper">
       <Introduction />
