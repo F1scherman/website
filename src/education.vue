@@ -21,8 +21,8 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
       I currently attend the University of Utah, pursuing an Honors Computer Science BS with a Math minor
       and a Physics minor. I am currently projected to graduate in December of 2025, but pending application and
       acceptance into the BS/MS program, that will push my graduation date back until May of 2027. I plan to formally focus
-      on Programming Languages, Robotics, Artificial Intelligence, Information, and Theory by receiving the corresponding
-      <a href="https://handbook.cs.utah.edu/2022-2023/CS/Academics/tracks.php">same-named track certificates</a>. In addition,
+      on Programming Languages, Robotics, Artificial Intelligence, Information, and Theory by receiving the
+      <a href="https://handbook.cs.utah.edu/2022-2023/CS/Academics/tracks.php">corresponding track certificates</a>. In addition,
       I plan to informally focus on Computer Graphics within the BS degree. I participated in the Engineering Scholars program
       as a freshman through the Price College of Engineering, and currently participate in the
       <a href="https://getinvolved.utah.edu/organization/gamecraft">Gamecraft</a> EAE organization, especially through their
