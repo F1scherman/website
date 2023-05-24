@@ -1,0 +1,1 @@
+import{_ as n,o,c as _,b as s,r as t}from"./main-93f0b20f.js";const a={},c={class:"item"},d={class:"details"};function r(e,l){return o(),_("div",c,[s("div",d,[s("h3",null,[t(e.$slots,"heading",{},void 0,!0)]),t(e.$slots,"default",{},void 0,!0)])])}const u=n(a,[["render",r],["__scopeId","data-v-57e209f6"]]);export{u as S};
