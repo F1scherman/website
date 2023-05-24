@@ -21,17 +21,23 @@ slot {
 }
 
 button {
-  font-size: 1.2rem;
-  font-weight: 500;
   margin-bottom: 0.4rem;
   margin-right: 10px;
-  width: 128px;
-  height: 32px;
   border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 200px;
+  height: 32px;
   border: 1px solid var(--color-border);
   background: var(--color-background);
   color: var(--color-text);
   transition: 0.5s;
+}
+
+@media(min-width: 1024px) {
+  button {
+    width: 128px;
+  }
 }
 
 button:hover {
