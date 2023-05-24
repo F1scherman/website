@@ -34,7 +34,7 @@ button {
   transition: 0.5s;
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 475px) {
   button {
     width: 128px;
   }
