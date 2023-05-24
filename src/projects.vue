@@ -1,7 +1,6 @@
 <script setup>
 
 import SummaryItem from "@/components/summary-item.vue";
-import EcosystemIcon from "@/components/icons/IconEcosystem.vue";
 import NavigationButtons from "@/components/navigation-buttons.vue";
 </script>
 
