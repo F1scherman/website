@@ -1,6 +1,5 @@
 <script setup>
 
-import CommunityIcon from "@/components/icons/IconCommunity.vue";
 import GithubIcon from "@/components/icons/IconGithub.vue";
 import LinkedinIcon from "@/components/icons/IconLinkedin.vue";
 import SummaryItem from "@/components/summary-item.vue";
@@ -10,12 +9,12 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
 <template>
   <NavigationButtons></NavigationButtons>
   <SummaryItem>
-    <template #heading>Social Media</template>
+    <div style="text-align: center;">
     <a href="https://www.linkedin.com/in/brayden-jonsson-03080b247/"><LinkedinIcon /></a>&nbsp;
     <a href="https://github.com/BraydenJonsson"><GithubIcon /></a>&nbsp;
     <a href="https://app.joinhandshake.com/stu/users/43736513"><img src="./components/icons/ImageHandshake.png"
-                                                                    alt="Handshake" width="50"
-                                                                    height="50"></a>&nbsp;
-
+                                                                    alt="Handshake" width="200"
+                                                                    height="200"></a>&nbsp;
+    </div>
   </SummaryItem>
 </template>
