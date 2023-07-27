@@ -47,6 +47,11 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
     hosted using the static Github Pages option. It is always a work-in-progress.
     <br>
     <br>
+    -<a href="https://github.com/BraydenJonsson/pythagorean-triple-finder">Pythagorean Triple Finder</a>
+    <br>
+    A python module/command line utility to find pythagorean triples when one side length is known.
+    <br>
+    <br>
     -<a href="https://github.com/BraydenJonsson/rust-matrix">Rust Matrix</a>
     <br>
     This project is a library for a mathematical Matrix in rust. I created this project both as a way to familiarize myself
@@ -65,5 +70,10 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
     <br>
     This is work I completed during Fall 2021 for my Game Development class in high school, using Unity and C#. Not maintained,
     probably not very good.
+    <br>
+    <br>
+    -<a href="https://github.com/BraydenJonsson/TrackingCalculator">Tracking Calculator</a>
+    <br>
+    This was my final project for the Advanced Programming course, using OOP principles, GUIs, and databases.
   </SummaryItem>
 </template>
