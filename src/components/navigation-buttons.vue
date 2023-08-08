@@ -10,7 +10,7 @@ const education = ref("education");
 const experience = ref("experience");
 const projects = ref("projects");
 const media = ref("media");
-const home = ref("");
+const home = ref("index");
 </script>
 
 <template>
