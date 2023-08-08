@@ -2,11 +2,14 @@
 import {ref} from "vue";
 import MyButton from "./nav-button.vue";
 
-const education = ref("education.html");
-const experience = ref("experience.html");
-const projects = ref("projects.html");
-const media = ref("media.html");
-const home = ref("index.html");
+// NOTE: In GH-Pages, these links work as intended, but in dev environments they may not.
+// On my machine, all links point back to home, probably due to lack of a 404 page.
+// This can be bypassed by directly typing in links during development
+const education = ref("education");
+const experience = ref("experience");
+const projects = ref("projects");
+const media = ref("media");
+const home = ref("");
 </script>
 
 <template>
