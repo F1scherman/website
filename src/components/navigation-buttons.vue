@@ -3,8 +3,9 @@ import {ref} from "vue";
 import MyButton from "./nav-button.vue";
 
 // NOTE: In GH-Pages, these links work as intended, but in dev environments they may not.
-// On my machine, all links point back to home, probably due to lack of a 404 page.
+// This results in all buttons returning to the homepage during dev
 // This can be bypassed by directly typing in links during development
+// This might be fixable using Jekyll in GH-Pages in the future
 const education = ref("education");
 const experience = ref("experience");
 const projects = ref("projects");
