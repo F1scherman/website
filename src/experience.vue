@@ -15,8 +15,7 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
     and I am happy to be still working there.
     <br>
     <br>
-    Previously, I had worked at my local Walmart over the summer between the 20-21 and 21-22 school
-    years, and this was a great position to improve interpersonal communication and customer service skills.
+    Previously, I had worked at my local Walmart over the summer of 2021, and this was a great position to improve interpersonal communication and customer service skills.
     <br>
     <br>
     Before COVID-19, I had worked at my high school as a student math tutor, echoing much of the same experience
