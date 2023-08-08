@@ -20,7 +20,8 @@ export default defineConfig({
         experience: resolve(__dirname, 'experience.html'),
         projects: resolve(__dirname, 'projects.html'),
         media: resolve(__dirname, 'media.html'),
-        education: resolve(__dirname, 'education.html')
+        education: resolve(__dirname, 'education.html'),
+        error404: resolve(__dirname, '404.html')
       }
     }
   }
