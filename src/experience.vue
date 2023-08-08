@@ -9,10 +9,16 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
   <SummaryItem>
     <template #heading>Work Experience</template>
 
-    I currently work for <a href="https://www.wasatchtutors.com/">Wasatch Tutors</a> in Sandy, working
-    with high school students in both subject and ACT tutoring. I have worked there since September 2022,
-    and it has boosted my experience in interpersonal communication and education. It is a great position
-    and I am happy to be still working there.
+    I currently work as a TA for the Kahlert School of Computing. I'm currently assigned to CS2420, Introduction to Data
+    Structures and Algorithms, which keeps me fresh on that set of critical skills. Just like my previous positions, this
+    position primarily improves my skills in interpersonal communication, but with a focus on presenting or teaching during
+    labs.
+    <br>
+    <br>
+    I worked for <a href="https://www.wasatchtutors.com/">Wasatch Tutors</a> in Sandy for my freshman year of college,
+    working with high school students in both subject and ACT tutoring. This position boosted my experience in interpersonal
+    communication and education. It is a great position and working there was a blast. This is a great position for anyone
+    who wants to get into tutoring.
     <br>
     <br>
     Previously, I had worked at my local Walmart over the summer of 2021, and this was a great position to improve interpersonal communication and customer service skills.
