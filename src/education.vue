@@ -1,6 +1,8 @@
 <script setup>
 import SummaryItem from "@/components/summary-item.vue";
 import NavigationButtons from "@/components/navigation-buttons.vue";
+import CourseTable from "@/components/course-table.vue";
+import CourseTableRow from "@/components/course-table-row.vue";
 </script>
 
 <template>
@@ -27,6 +29,95 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
       as a freshman through the Price College of Engineering, and currently participate in the
       <a href="https://getinvolved.utah.edu/organization/gamecraft">Gamecraft</a> EAE organization, especially through their
       monthly game jams, and I am a current member of the Alpha Alpha Alpha First-Generation Honors Society.
+      <br>
+      <br>
+      I have taken the following courses:
+      <CourseTable>
+        <template #semester>Fall 2022</template>
+        <CourseTableRow>
+          <template #class-name>CS2420: Intro to Data Structures and Algorithms</template>
+          <template #credits>4</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>CS1960: Success in CS</template>
+          <template #credits>1</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Math2210: Calculus III</template>
+          <template #credits>3</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Honor2102: Intellectual Traditions: The Middle Ages</template>
+          <template #credits>3</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Honor2049: Ethics, Literature, and Human Nature</template>
+          <template #credits>2</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Musc1236: Survey of Jazz</template>
+          <template #credits>3</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+      </CourseTable>
+      <CourseTable>
+        <template #semester>Spring 2023</template>
+        <CourseTableRow>
+          <template #class-name>CS3500: Software Practice I</template>
+          <template #credits>4</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>CS3810: Computer Organization</template>
+          <template #credits>4</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Math2270: Linear Algebra</template>
+          <template #credits>4</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Honor2980: Creative Problem Solving</template>
+          <template #credits>3</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Honor2050: Ethics, Leadership, and The Humanities</template>
+          <template #credits>1</template>
+          <template #letter-grade>A</template>
+        </CourseTableRow>
+      </CourseTable>
+      <br>
+      I am scheduled to take/am currently taking the following courses:
+      <CourseTable>
+        <template #semester>Fall 2023</template>
+        <CourseTableRow>
+          <template #class-name>CS3505: Software Practice II</template>
+          <template #credits>4</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Math2200: Discrete Mathematics</template>
+          <template #credits>3</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Math2280: Differential Equations</template>
+          <template #credits>4</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Phys2220: Physics for Scientists and Engineers II</template>
+          <template #credits>4</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Honor2101: Intellectual Traditions: Antiquity</template>
+          <template #credits>3</template>
+        </CourseTableRow>
+      </CourseTable>
     </SummaryItem>
   </main>
 </template>
