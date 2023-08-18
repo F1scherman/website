@@ -5,10 +5,10 @@
   <div class="greetings">
     <h1 class="red">Brayden Jonsson</h1>
     <h3>
-      A student at the <a href="https://www.utah.edu/">University of Utah</a>
+      A student at the <a href="https://www.cs.utah.edu/">Kahlert School of Computing</a>, <a href="https://www.utah.edu/">University of Utah</a>
       <br>
       <br>
-      I am a rising sophomore for an Honors Computer Science BS, with two minors in Math and Physics.
+      I am a sophomore for an Honors Computer Science BS, with two minors in Math and Physics.
       I built this site both as a way to display my portfolio information, as well as practice
       legitimate web development techniques.
       <br>
@@ -25,7 +25,8 @@
       <br>
       Other than pure computing, I also own and maintain a 3D printer and participate in game design,
       especially through monthly game jams hosted by the Gamecraft club on campus. I try to find and participate
-      in any events that I find particularly interesting. I currently work for Wasatch Tutors in Sandy.
+      in any events that I find particularly interesting. I work as a TA for the KSoC, currently in CS2420: Intro to
+      Data Structures and Algorithms.
     </h3>
   </div>
 </template>
