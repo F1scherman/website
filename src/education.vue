@@ -99,7 +99,7 @@ import CourseTableRow from "@/components/course-table-row.vue";
         <template #semester>Fall 2023</template>
         <CourseTableRow>
           <template #class-name>CS3505: Software Practice II</template>
-          <template #credits>4</template>
+          <template #credits>3</template>
         </CourseTableRow>
         <CourseTableRow>
           <template #class-name>Math2200: Discrete Mathematics</template>
