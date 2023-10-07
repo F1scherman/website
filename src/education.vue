@@ -28,7 +28,8 @@ import CourseTableRow from "@/components/course-table-row.vue";
       I plan to informally focus on Computer Graphics within the BS degree. I participated in the Engineering Scholars program
       as a freshman through the Price College of Engineering, and currently participate in the
       <a href="https://getinvolved.utah.edu/organization/gamecraft">Gamecraft</a> EAE organization, especially through their
-      monthly game jams, and I am a current member of the Alpha Alpha Alpha First-Generation Honors Society.
+      monthly game jams, and I am a current member of the Alpha Alpha Alpha First-Generation Honors Society. I am also a
+      member of the Society of Physics Students.
       <br>
       <br>
       I have taken the following courses:
@@ -115,6 +116,33 @@ import CourseTableRow from "@/components/course-table-row.vue";
         </CourseTableRow>
         <CourseTableRow>
           <template #class-name>Honor2101: Intellectual Traditions: Antiquity</template>
+          <template #credits>3</template>
+        </CourseTableRow>
+      </CourseTable>
+      <CourseTable>
+        <template #semester>Spring 2024</template>
+        <CourseTableRow>
+          <template #class-name>CS4150: Algorithms</template>
+          <template #credits>3</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>CS3130: Engineering Statistics</template>
+          <template #credits>3</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>CS3100: Models of Computation</template>
+          <template #credits>3</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Math3210: Foundations of Analysis I</template>
+          <template #credits>4</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Phys2710: Physics III: Modern Physics</template>
+          <template #credits>4</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Musc3600: World Music (Intensive Course)</template>
           <template #credits>3</template>
         </CourseTableRow>
       </CourseTable>
