@@ -20,6 +20,12 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
     preferring Godot for development.
     <br>
     <br>
+    -<a href="https://guywithapc.itch.io/late-bloomer">Late Bloomer</a>
+    <br>
+    Based on the theme "Late Start", this is a game where you need to grow crops using the leftover fertilizers in the
+    local market. I worked on assembling and configuring the art and music.
+    <br>
+    <br>
     -<a href="https://guywithapc.itch.io/fridge-frenzy">Fridge Frenzy</a>
     <br>
     Based on the theme "Chill", this is a game where the goal is to manage inventory of a fridge during a restaurant's
