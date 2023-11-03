@@ -5,10 +5,12 @@
   <div class="greetings">
     <h1 class="red">Brayden Jonsson</h1>
     <h3>
-      A student at the <a href="https://www.cs.utah.edu/">Kahlert School of Computing</a>, <a href="https://www.utah.edu/">University of Utah</a>
+      A student at the <a href="https://www.cs.utah.edu/">Kahlert School of Computing</a> and
+      <a href="https://www.physics.utah.edu/">Department of Physics and Astronomy</a>,
+      <a href="https://www.utah.edu/">University of Utah</a>
       <br>
       <br>
-      I am a sophomore for an Honors Computer Science BS, with two minors in Math and Physics.
+      I am a sophomore for an Honors Computer Science BS and Honors Physics BS.
       I built this site both as a way to display my portfolio information, as well as practice
       legitimate web development techniques.
       <br>

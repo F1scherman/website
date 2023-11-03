@@ -20,12 +20,13 @@ import CourseTableRow from "@/components/course-table-row.vue";
     </SummaryItem>
     <SummaryItem>
       <template #heading>College</template>
-      I currently attend the University of Utah, pursuing an Honors Computer Science BS with a Math minor
-      and a Physics minor. I am currently projected to graduate in December of 2025, but pending application and
-      acceptance into the BS/MS program, that will push my graduation date back until May of 2027. I plan to formally focus
+      I currently attend the University of Utah, pursuing an Honors Computer Science BS and an Honors Physics BS. I am
+      currently projected to graduate in December of 2025, but pending application and
+      acceptance into the CS BS/MS program, that will push my graduation date back until May of 2027. I plan to formally focus
       on Programming Languages, Robotics, Artificial Intelligence, Information, and Theory by receiving the
       <a href="https://handbook.cs.utah.edu/2022-2023/CS/Academics/tracks.php">corresponding track certificates</a>. In addition,
-      I plan to informally focus on Computer Graphics within the BS degree. I participated in the Engineering Scholars program
+      I plan to informally focus on Computer Graphics within the BS degree. In Physics, I plan to focus on computational physics,
+      but will not receive the specific emphasis. I participated in the Engineering Scholars program
       as a freshman through the Price College of Engineering, and currently participate in the
       <a href="https://getinvolved.utah.edu/organization/gamecraft">Gamecraft</a> EAE organization, especially through their
       monthly game jams, and I am a current member of the Alpha Alpha Alpha First-Generation Honors Society. I am also a
@@ -134,12 +135,16 @@ import CourseTableRow from "@/components/course-table-row.vue";
           <template #credits>3</template>
         </CourseTableRow>
         <CourseTableRow>
-          <template #class-name>Math3210: Foundations of Analysis I</template>
-          <template #credits>4</template>
+          <template #class-name>Phys2235: Computation Lab</template>
+          <template #credits>1</template>
         </CourseTableRow>
         <CourseTableRow>
           <template #class-name>Phys2710: Physics III: Modern Physics</template>
           <template #credits>4</template>
+        </CourseTableRow>
+        <CourseTableRow>
+          <template #class-name>Honor3200: Writing in a Research University</template>
+          <template #credits>3</template>
         </CourseTableRow>
         <CourseTableRow>
           <template #class-name>Musc3600: World Music (Intensive Course)</template>
