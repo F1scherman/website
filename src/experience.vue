@@ -38,7 +38,7 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
     as well as Rust and Javascript which I have tried to learn on the side.
     <br>
     <br>
-    I have completed the Software Practice I course, demonstrating proficiency in C# as well as techniques
+    I have completed the Software Practice I and II courses, demonstrating proficiency in C#, C++, and Unix as well as techniques
     relating to clear and effective software development. Unfortunately, in respect of keeping assignment solutions
     private, that code is not available.
     <br>

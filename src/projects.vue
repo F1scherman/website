@@ -20,6 +20,12 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
     preferring Godot for development.
     <br>
     <br>
+    -<a href="https://guywithapc.itch.io/hummingbird-simulator">Hummingbird Simulator</a>
+    <br>
+    Based on the theme "Agility", this is a game where you need to navigate a procedurally-generated level and consistently
+    stop at flowers to eat nectar to survive. I worked on the procedural generation.
+    <br>
+    <br>
     -<a href="https://guywithapc.itch.io/late-bloomer">Late Bloomer</a>
     <br>
     Based on the theme "Late Start", this is a game where you need to grow crops using the leftover fertilizers in the
@@ -51,6 +57,32 @@ import NavigationButtons from "@/components/navigation-buttons.vue";
     <br>
     This project hosts the source code and deployed version of this website. This website is written in Vue.js and is
     hosted using the static Github Pages option. It is always a work-in-progress.
+    <br>
+    <br>
+    -<a href="https://github.com/coravacav/uofu-cs-discord-bot">University of Utah CS Discord Bot</a>
+    <br>
+    This is a bot, written in Rust, for the unofficial U of U CS Discord. I was the first maintainer, but as
+    Stefan Todorov (coravacav) took on hosting and the majority of contributions, I transferred ownership. I
+    still supply guidance and pull requests.
+    <br>
+    <br>
+    -<a href="https://github.com/F1scherman/matlab-brainfuck-interpreter">Matlab Brainfuck Interpreter</a>
+    <br>
+    In order to earn a waiver for the Physics Computational Lab course, I was under the impression I needed to know
+    Matlab. This was a project I worked on in order to accomplish that, however as it turned out I only needed to know
+    Python for that exam. It was still a fun project.
+    <br>
+    <br>
+    -<a href="https://github.com/F1scherman/AdventOfCode2023">Advent of Code 2023</a>
+    <br>
+    This repo contains all of my Advent of Code 2023 work, completed in Python. I got further along and did more than
+    in 2022, but still didn't complete it all.
+    <br>
+    <br>
+    -<a href="https://github.com/F1scherman/GPA_Calculator">GPA Calculator</a>
+    <br>
+    This is a simple script to calculate your current cumulative GPA, as well as how many courses you would need
+    to reach a specified goal GPA.
     <br>
     <br>
     -<a href="https://github.com/BraydenJonsson/pythagorean-triple-finder">Pythagorean Triple Finder</a>

@@ -10,10 +10,9 @@ import CourseTableRow from "@/components/course-table-row.vue";
   <main>
     <SummaryItem>
       <template #heading>High School</template>
-
       I graduated from <a href="https://lphs.alpineschools.org/">Lone Peak High School</a> in 2022. I was recognized as
       one of two Salutatorians upon graduation (out of ~800 graduating students), computed by a combination metric of
-      weighted GPA and ACT score. I received other recognitions, such as the Distinguished Student award from the BYU
+      weighted GPA (70%) and ACT score (30%). I received other recognitions, such as the Distinguished Student award from the BYU
       Mathematics department and Finalist in the <a href="http://www.sterlingscholar.org/">Wasatch Front Sterling Scholar</a>
       competition within the Computer Technology category. During high school, I participated in the Engineering/VEX Robotics
       Team, the Math Team, National Honors Society, and the Crusader Club.
@@ -21,16 +20,15 @@ import CourseTableRow from "@/components/course-table-row.vue";
     <SummaryItem>
       <template #heading>College</template>
       I currently attend the University of Utah, pursuing an Honors Computer Science BS and an Honors Physics BS. I am
-      currently projected to graduate in December of 2025, but pending application and
-      acceptance into the CS BS/MS program, that will push my graduation date back until May of 2027. I plan to formally focus
-      on Programming Languages, Robotics, Artificial Intelligence, Information, and Theory by receiving the
-      <a href="https://handbook.cs.utah.edu/2022-2023/CS/Academics/tracks.php">corresponding track certificates</a>. In addition,
-      I plan to informally focus on Computer Graphics within the BS degree. In Physics, I plan to focus on computational physics,
-      but will not receive the specific emphasis. I participated in the Engineering Scholars program
-      as a freshman through the Price College of Engineering, and currently participate in the
-      <a href="https://getinvolved.utah.edu/organization/gamecraft">Gamecraft</a> EAE organization, especially through their
-      monthly game jams, and I am a current member of the Alpha Alpha Alpha First-Generation Honors Society. I am also a
-      member of the Society of Physics Students.
+      currently projected to graduate with the 2026 class, but pending application and
+      acceptance into the CS BS/MS program, I will attend an additional year and complete my master's in 2027.
+      I plan to formally focus on Programming Languages, Robotics, Artificial Intelligence, Information, and Theory by receiving the
+      <a href="https://handbook.cs.utah.edu/2022-2023/CS/Academics/tracks.php">corresponding track certificates</a>. In Physics,
+      I plan to focus on computational physics, but I do not anticipate receiving the specific emphasis.
+      I participated in the Engineering Scholars program as a freshman through the Price College of Engineering,
+      and currently participate in the <a href="https://getinvolved.utah.edu/organization/gamecraft">Gamecraft</a>
+      EAE organization, especially through their monthly game jams, and I am a current member of the Alpha Alpha Alpha
+      First-Generation Honors Society. I am also a member of the Society of Physics Students.
       <br>
       <br>
       I have taken the following courses:
@@ -95,31 +93,36 @@ import CourseTableRow from "@/components/course-table-row.vue";
           <template #letter-grade>A</template>
         </CourseTableRow>
       </CourseTable>
-      <br>
-      I am scheduled to take/am currently taking the following courses:
       <CourseTable>
         <template #semester>Fall 2023</template>
         <CourseTableRow>
           <template #class-name>CS3505: Software Practice II</template>
           <template #credits>3</template>
+          <template #letter-grade>A</template>
         </CourseTableRow>
         <CourseTableRow>
           <template #class-name>Math2200: Discrete Mathematics</template>
           <template #credits>3</template>
+          <template #letter-grade>A</template>
         </CourseTableRow>
         <CourseTableRow>
           <template #class-name>Math2280: Differential Equations</template>
           <template #credits>4</template>
+          <template #letter-grade>A</template>
         </CourseTableRow>
         <CourseTableRow>
           <template #class-name>Phys2220: Physics for Scientists and Engineers II</template>
           <template #credits>4</template>
+          <template #letter-grade>A</template>
         </CourseTableRow>
         <CourseTableRow>
           <template #class-name>Honor2101: Intellectual Traditions: Antiquity</template>
           <template #credits>3</template>
+          <template #letter-grade>A</template>
         </CourseTableRow>
       </CourseTable>
+      <br>
+      I am scheduled to take/am currently taking the following courses:
       <CourseTable>
         <template #semester>Spring 2024</template>
         <CourseTableRow>
@@ -135,19 +138,11 @@ import CourseTableRow from "@/components/course-table-row.vue";
           <template #credits>3</template>
         </CourseTableRow>
         <CourseTableRow>
-          <template #class-name>Phys2235: Computation Lab</template>
-          <template #credits>1</template>
-        </CourseTableRow>
-        <CourseTableRow>
           <template #class-name>Phys2710: Physics III: Modern Physics</template>
           <template #credits>4</template>
         </CourseTableRow>
         <CourseTableRow>
           <template #class-name>Honor3200: Writing in a Research University</template>
-          <template #credits>3</template>
-        </CourseTableRow>
-        <CourseTableRow>
-          <template #class-name>Musc3600: World Music (Intensive Course)</template>
           <template #credits>3</template>
         </CourseTableRow>
       </CourseTable>
